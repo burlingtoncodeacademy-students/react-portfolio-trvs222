@@ -1,0 +1,33 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url("/src/assets/mak-flex-E_XcS23r5mo-unsplash.jpg") no-repeat center/cover;
+    
+}
+
+.hero .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero .content{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    margin-left: 6rem;
+    
+}
+
+.hero h1 {
+    color:whitesmoke;
+    margin-bottom: 0
+}
+
+@media screen and(max-width:940px) {
+    .hero .content {
+        margin-left: 1rem;
+    }
+}
+    

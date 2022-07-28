@@ -1,0 +1,21 @@
+.about{
+    color: black;
+    padding-top: 10em;
+    display: flex;
+    justify-content: center;
+}
+
+#img1{
+    width: 250px;
+    height: 300px
+}
+
+.image-one {
+    display: flex;
+    justify-content: center;
+}
+
+.random-text{
+    display: flex;
+    font-size: 15px;
+}
