@@ -1,0 +1,38 @@
+.ic1{
+    display: flex;
+    justify-content: center;
+    padding-top: 20em;
+}
+.ic2{
+    display: flex;
+    justify-content: center;
+    padding-top: 7em;
+    
+}
+.icon1{
+    height: 200px;
+    width: 200px;
+    padding-right: 25em;
+}
+.icon2{
+    height: 200px;
+    width: 200px;
+}
+.icon3{
+    height: 200px;
+    width: 200px;
+    padding-right: 25em;
+}
+.icon4{
+    height: 200px;
+    width: 200px;
+}
+
+
+@media screen and (min-width: 1700px) {
+    .hobby-icon {
+        height: 200px;
+        width: 200px;
+        z-index: 15;
+    }
+}
